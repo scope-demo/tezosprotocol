@@ -29,7 +29,6 @@ jobs:
       with:
         dsn: ${{secrets.SCOPE_DSN}}
 
-
     - name: Upload Scope logs
       if: always()
       uses: actions/upload-artifact@v1
